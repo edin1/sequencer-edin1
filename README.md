@@ -1,9 +1,10 @@
 # sequencer-edin1
 An implementation of the [sequencer API](http://docs.sequencer.apiary.io) in Python with flask-restful and pymongo.
 # Installation
-Checkout the git repository with:
+Clone the git repository to your local machine:
 
     git clone https://github.com/edin1/sequencer-edin1.git
+    cd sequencer_edin1
 Install the package (preferably in a [virtualenv](https://virtualenv.pypa.io/en/latest/)) with the usual:
 
     python setup.py develop
