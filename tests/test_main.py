@@ -2,7 +2,7 @@ import json
 
 from .__setup import TestCase, test_app
 
-from sequencer_edin.api import resources
+from sequencer_edin1.api import resources
 
 def json_load(req):
     return json.loads(req.data.decode('utf-8'))
