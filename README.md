@@ -16,4 +16,4 @@ To check everything is OK, you can run the tests with:
     pip setup.py test
 To run the api server with flask's default debug server, use:
 
-    python sequencer_edin1\api.py
+    python sequencer_edin1/api.py
