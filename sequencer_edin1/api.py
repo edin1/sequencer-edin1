@@ -23,7 +23,6 @@ class Home(Resource):
 
 class ValueUrl(Resource):
     def get(self, key):
-        assert isinstance(key, str)
         result_db = keys_values.find_one({"key": key})
         if result_db is None:
             keys_values.insert_one({"key": key, "value": 0})
