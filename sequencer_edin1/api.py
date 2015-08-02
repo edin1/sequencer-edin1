@@ -45,4 +45,4 @@ api.add_resource(Home, '/')
 api.add_resource(ValueUrl, '%s/<string:key>'%resources['value_url'])
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, host='0.0.0.0')
